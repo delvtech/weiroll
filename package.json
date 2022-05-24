@@ -1,5 +1,10 @@
 {
   "name": "@weiroll/weiroll",
+  "version": "0.1.0",
+  "files": [
+    "contracts/CommandBuilder.sol",
+    "contracts/VM.sol"
+  ],
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
