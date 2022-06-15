@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "files": [
     "contracts/CommandBuilder.sol",
-    "contracts/VM.sol"
+    "contracts/VM.sol",
+    "contracts/SafeVM.sol"
   ],
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",

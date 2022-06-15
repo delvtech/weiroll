@@ -1,12 +1,12 @@
 import "@nomiclabs/hardhat-waffle";
-import type {HardhatUserConfig} from "hardhat/types";
+import type { HardhatUserConfig } from "hardhat/types";
 
 const userConfig: HardhatUserConfig = {
   paths: {
     sources: "./contracts",
     tests: "./test",
     cache: "./cache",
-    artifacts: "./artifacts"
+    artifacts: "./artifacts",
   },
   mocha: {
     timeout: 2000000,
@@ -15,6 +15,6 @@ const userConfig: HardhatUserConfig = {
   defaultNetwork: "hardhat",
   networks: {
     hardhat: {},
-  }
+  },
 };
-export default userConfig
+export default userConfig;
